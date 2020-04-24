@@ -1,0 +1,50 @@
+h1 {
+    color: mediumseagreen;
+    font-family: AppleGothic;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: right;
+    text-shadow: 0 0 10px #49ff18, 0 0 15px #49ff18, 0 0 20px #49ff18, 0 0 25px #49ff18, 0 0 30px #49ff18, 0 0 45px #49ff18, 0 0 60px #49ff18, 0 0 80px #49ff18;
+    /*Relative Positioning 3*/
+    position: relative;
+    right: 200px;
+}
+
+
+
+h2{
+    font-family: "fantasy";
+    font-size: 40px;
+    text-shadow: rgba(255,255,255,.5) 0 0 15px, rgba(255,255,255,.5) 0 0 10px;
+    /*Flips image upside down*/
+    transform: rotate(180deg);
+
+    /*Relative Positioning 4*/
+    position: relative;
+    left: 200px;
+
+}
+
+body{
+    align-content: center;
+    /*Exaggeration of repetition as the same image is looped in background*/
+    background-image: url("../Images/w1.jpeg");
+    left: 30px;
+    /*Border Property Instance 3*/
+    border: 75px solid aqua;
+    /*Margin property Instance 2: Margins are sloppy, results in exaggeration of proximity and alignment from overlap*/
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-top: 25px;
+    /*Padding Instance 3*/
+    padding-right: 150px;
+}
+img:hover {
+    /*Circular edges*/
+    border-radius: 150%;
+    height: auto;
+    width: 20%;
+    /*Zoom when hovering*/
+    transform: scale(5);
+
+}
