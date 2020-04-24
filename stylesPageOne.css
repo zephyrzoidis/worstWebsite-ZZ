@@ -28,7 +28,7 @@ h2{
 body{
     align-content: center;
     /*Exaggeration of repetition as the same image is looped in background*/
-    background-image: url("../Images/w1.jpeg");
+    background-image: url("Images/w1.jpeg");
     left: 30px;
     /*Border Property Instance 3*/
     border: 75px solid aqua;
